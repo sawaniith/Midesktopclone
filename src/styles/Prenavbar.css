@@ -1,0 +1,43 @@
+.prenav{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 5fr 1.5fr;
+    color: white;
+}
+.prenav > div{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+/* .prenav > div > div > a{
+    color: rgba(228, 225, 225, 0.644);
+    font-size: 1vmax;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin: 0.5vmax; 
+    text-decoration: none; 
+ }
+ .prenav > div > div > a:hover{
+    color: white;
+} */
+.prenav > div > span{
+    font-size: 0.9vmax;
+    font-weight: 100;
+}
+.prenav > div > a{
+    color: rgba(228, 225, 225, 0.644);
+    font-size: 1vmax;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin: 0.8vmax;
+    text-decoration: none;
+}
+.prenav > div > a:hover{
+    color: white;
+}
+.prenav > div svg{
+    fill: rgba(228, 225, 225, 0.644);
+}
+.prenav > div svg:hover{
+    fill: white
+}

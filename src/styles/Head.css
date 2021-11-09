@@ -1,0 +1,15 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head div{
+    background-color: black;
+    height: 1px;
+    width: 30vw;
+}
+.head p{
+    margin: 3vmax;
+    font-size: x-large;
+    color: black;
+}

@@ -1,0 +1,89 @@
+/* prefooter1 */
+.prefooter1{
+   margin: 5vmax 0 0 0;
+   background-color: white;
+   padding: 1vmax;
+   padding-bottom: 0;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.prefooter1 > div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgba(66,66,66,0.829);
+}
+.prefooter1 > div:hover svg{
+  fill: rgb(34,34,34);
+  cursor: pointer;
+}
+.prefooter1 > div:hover p{
+   color: rgb(19,18,18);
+   cursor: pointer;
+}
+.prefooter1 svg{
+    transform: scale(2) translateY(-0.2vmax);
+    fill: rgba(37,37,37,0.322);
+    margin: 2vmax;
+}
+
+
+
+/* css of prefooter2 */
+.prefooter2{
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(4,1fr);
+}
+.prefooter2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prefooter2 > div > p{
+    color: rgba(0,0,0,0.842);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0%;
+}
+.prefooter2 > div >span{
+    color: rgba(51,51,51,0.842);
+    width: 18vmax;
+    font-size: 1vmax;
+}
+.prefooter2 > div > div > input{
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: rgb(255,255,255);
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+.prefooter2 > div > div > button{
+    border: none;
+    padding: 00.5vmax;
+    background-color: rgb(255,255,255);
+    outline: none;
+}
+.prefooter2 > div > div{
+    border: 1px solid rgba(126,126,126,0.493);
+}
+.prefooter2 > div:nth-child(2) >span{
+   width: 22vmax;
+}
+.prefooter2 > div:nth-child(3) > p{
+    width: 15vmax;
+}
+.prefooter2 > div:nth-child(3) > span{
+    width: 15vmax;
+}
+.prefooter2 > div:nth-child(4){
+    flex-direction: row;
+}
+.prefooter2 > div:nth-child(4) > svg{
+    cursor: pointer;
+    margin: 1vmax;
+    fill: rgba(138,138,138,0.705);
+}

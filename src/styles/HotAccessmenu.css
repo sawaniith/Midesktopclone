@@ -1,0 +1,17 @@
+.hotac{
+    display: flex;
+    justify-content: center;
+}
+
+.hotlink{
+  text-decoration: none;
+  color: blueviolet;
+  margin: 1vmax;
+  padding: 0.5vmax 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.hotlink:hover{
+    text-decoration: none;
+    color: crimson;
+    border-bottom: 1px solid crimson;
+}

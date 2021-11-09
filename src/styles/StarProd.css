@@ -1,0 +1,18 @@
+.starprod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax auto;
+}
+.starprod > div:last-child{
+   display: flex;
+   flex-wrap: wrap;
+   width: 41%;
+   margin-left: 3px;
+}
+.starprod img{
+   transition: all 0.5s;
+}
+.starprod img:hover{
+    box-shadow: 6px 6px 10px black;
+}

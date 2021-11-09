@@ -1,0 +1,56 @@
+.Nav{
+    /* z-index: 1000; */
+    background-color: rgb(217, 231, 236);
+    padding: 1vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rosybrown;
+}
+
+.logo{
+    background-color: red;
+    width: 58px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position:relative;
+    right: 2vmax;
+}
+#logoImage{
+    transition: all 0.2s;
+    transform: translateX(-58px);
+}
+#logoImage:hover{
+    transform: translateX(0);
+}
+.navlink{
+    color: rgb(167, 95, 95);
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 1.1vmax;
+}
+.navlink:hover{
+    color: red;
+    text-decoration: none;
+}
+.search{
+    position: relative;
+    left: 5vmax;
+}
+.search > input{
+    border: none;
+    border-bottom: 1px solid rosybrown;
+    width: 15vmax;
+    font-size: 1.1vmax;
+    outline: none;
+    color: rosybrown;
+    font-weight: 100;
+}
+.search svg{
+    fill: rosybrown;
+    cursor: pointer;
+}
